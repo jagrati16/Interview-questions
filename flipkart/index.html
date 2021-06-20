@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Card Details</title>
+    <link rel="stylesheet" type="text/css" href="./css/app.css" />
+  </head>
+
+  <body>
+    <form class="credit-card-details">
+      <div class="card-header">
+        <h1>Enter Credit Card Details</h1>
+      </div>
+      <div class="card-details">
+        <label for="card-number" class="label-wrap">Card Number</label>
+        <input
+          id="card-number"
+          type="text"
+          class="card-number"
+          placeholder="Enter Card Number"
+        />
+        <div class="cvv-expiry-wrapper">
+          <div class="card-expiry">
+            <label class="label-wrap">Expiry</label>
+            <div class="date-field">
+              <div class="month">
+                <select id="month">
+                  <option value="january">January</option>
+                  <option value="february">February</option>
+                  <option value="march">March</option>
+                  <option value="april">April</option>
+                  <option value="may">May</option>
+                  <option value="june">June</option>
+                  <option value="july">July</option>
+                  <option value="august">August</option>
+                  <option value="september">September</option>
+                  <option value="october">October</option>
+                  <option value="november">November</option>
+                  <option value="december">December</option>
+                </select>
+              </div>
+              <div class="year">
+                <select id="year">
+                  <option value="2016">2016</option>
+                  <option value="2017">2017</option>
+                  <option value="2018">2018</option>
+                  <option value="2019">2019</option>
+                  <option value="2020">2020</option>
+                  <option value="2021">2021</option>
+                  <option value="2022">2022</option>
+                  <option value="2023">2023</option>
+                  <option value="2024">2024</option>
+                </select>
+              </div>
+            </div>
+          </div>
+          <div class="cvv-detail">
+            <label class="label-wrap">CVV</label>
+            <input id="cvv" type="password" placeholder="CVV" />
+          </div>
+        </div>
+      </div>
+      <input type="submit" value="Submit" />
+    </form>
+    <div id="saved-card-details"></div>
+    <script type="text/javascript" src="./js/app.js"></script>
+  </body>
+</html>

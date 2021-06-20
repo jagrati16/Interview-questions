@@ -1,0 +1,27 @@
+h1,
+h2 {
+  font-family: Lato;
+}
+#app {
+  width: 100px;
+  height: 100px;
+  position: relative;
+}
+.test {
+  position: absolute;
+  width: 100px;
+  height: 100px;
+}
+
+.back {
+  background-color: red;
+}
+
+.front {
+  background-color: blue;
+  transition: transform ease-in 1s;
+}
+
+.move-right {
+  transform: translate(20px, 0);
+}

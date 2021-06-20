@@ -1,0 +1,20 @@
+#tabs {
+  display: flex;
+}
+
+.tab {
+  padding: 8px;
+  background-color: transparent;
+  border: none;
+  border-bottom: 1px solid black;
+  cursor: pointer;
+}
+
+.tab.selected {
+  border-bottom: 3px solid green;
+}
+
+.test {
+  padding: 16px;
+  background-color: yellow;
+}

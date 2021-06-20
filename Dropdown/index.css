@@ -1,0 +1,45 @@
+body {
+  margin: 0;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  width: 10em;
+}
+
+ul li {
+  position: relative;
+}
+
+ul li a {
+  background-color: #eee;
+  display: block;
+  padding: 1em;
+}
+
+ul li a + div {
+  background: #ccc;
+  clip: rect(0 0 0 0);
+  position: absolute;
+  left: 100%;
+  top: 0;
+  width: 320px;
+}
+
+li.active div {
+  clip: auto;
+}
+
+img {
+  height: 240px;
+  width: 320px;
+}
+
+svg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1;
+}

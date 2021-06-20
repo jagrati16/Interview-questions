@@ -1,0 +1,18 @@
+#observer-pattern {
+    width: 90%;
+    height: 200px;
+    background-color: yellow;
+    display: flex;
+    overflow: hidden;
+}
+
+.test {
+    width: 700px;
+    height: 500px;
+    background-color: pink;
+}
+
+.my-button {
+    margin-left: 10px;
+    height: 40px;
+}

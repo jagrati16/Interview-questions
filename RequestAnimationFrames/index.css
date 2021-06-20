@@ -1,0 +1,6 @@
+.my-animated-div {
+  width: 40px;
+  height: 20px;
+  background-color: aqua;
+  display: inline-block;
+}

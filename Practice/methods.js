@@ -1,0 +1,10 @@
+/**
+ * 
+ * document.querySelectorAll('');
+ * element.querySelectorAll('');
+ * 
+ * 
+ * 
+ * 
+ * 
+ */

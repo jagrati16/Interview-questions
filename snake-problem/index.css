@@ -1,0 +1,13 @@
+#snake-board {
+  border: 1px solid;
+  float: left;
+  font-size: 24px;
+  line-height: 1.5ex;
+  margin: 10px;
+}
+
+.serpent {
+  background-color: rebeccapurple;
+  width: 20px;
+  height: 20px;
+}

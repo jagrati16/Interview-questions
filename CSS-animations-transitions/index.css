@@ -1,0 +1,67 @@
+#app {
+  width: 100px;
+  height: 100px;
+  background-color: red;
+  transition: transform 2s;
+}
+
+.loader {
+  width: 50px;
+  height: 50px;
+  border-left: 5px solid red;
+  border-right: 5px solid blue;
+  border-radius: 50%;
+  animation-name: loader;
+  animation-duration: 1s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+
+@keyframes loader {
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.animation-block {
+  width: 100px;
+  height: 100px;
+  background-color: blue;
+  animation-name: slideIn;
+  animation-duration: 3s;
+}
+
+@keyframes slideIn {
+  50% {
+    transform: translate(50px, 50px);
+  }
+
+  to {
+    transform: translate(0, 0);
+  }
+}
+
+p {
+  animation-name: test;
+  animation-duration: 5s;
+}
+
+@keyframes test {
+  from {
+    margin-left: 100%;
+    width: 300%;
+  }
+
+  75% {
+    font-size: 300%;
+  }
+
+  to {
+    margin-left: 0;
+    width: 100%;
+  }
+}
+
+#app:hover {
+  transform: translate(50px, 50px);
+}
